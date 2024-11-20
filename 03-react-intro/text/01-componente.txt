@@ -1,0 +1,4 @@
+Que es un componente? 
+
+Es una pequeña pieza de codigo encapsulada re utilizable que puede tener estado o no
+

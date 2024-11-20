@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Cargat React -->
+    <script crossorigin src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <title>React App</title>
+</head>
+<body>
+    <div id="root">
+
+    </div>
+
+    <!-- Este es un script basico de react, donde usamos js y react a la vez -->
+    <!-- Hacemos uso de babel, para que el html entienda lo q hara react -->
+    <script type="text/babel">
+        const divRoot = document.querySelector("#root")
+        const nombre = "GOku"
+        const h1Tag = <h1> hola soy: {nombre} </h1>
+        ReactDOM.render(h1Tag, divRoot)
+    </script>
+</body>
+</html>
+
+<!-- Hacemos uso de babel, para que el html entienda lo q hara react -->
